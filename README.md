@@ -14,11 +14,28 @@ Dictionary data_mahasiswa menggunakan NIM sebagai key utama. Setiap value berupa
 
 ## Cara Menjalankan
 
+Program praktik dapat dijalankan melalui Terminal VS Code dengan perintah:
+```bash
+python praktik/data_mahasiswa.py
+```
 
+untuk menjalankan program latihan:
+```bash
+python latihan/01_dasar_dictionary.py
+```
+
+untuk menjalankan yang lainnya, gunakan perintah sesuai dengan nama berkasnya.
 
 ## Test Case
 
-
+| Input/Aksi | Hasil yang Diharapkan | Hasil Aktual | Status |
+| --- | --- | --- | --- |
+| Pencarian NIM A003 | Data Citra ditampilkan | Data Citra berhasil ditampilkan | Berhasil |
+| Pencarian NIM A999 | Pesan data tidak ditemukan | Data tidak ditemukan | Berhasil |
+| Mengubah nilai A002 menjadi 82 | Nilai A002 berubah menjadi 82 | Nilai A002 berubah menjadi 82 | Berhasil |
+| Menambahkan mahasiswa A006 | Data mahasiswa A006 tersimpan | Data A006 berhasil ditambahkan | Berhasil |
+| Menampilkan seluruh data dengan items() | Semua data mahasiswa ditampilkan | Berhasil |
+| Menghitung rata-rata nilai | Rata-rata sebesar 83.50 | Rata-rata = 83.50 | Berhasil |
 
 ## Refleksi
 
